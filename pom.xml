@@ -5,7 +5,7 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <cucumber.version>1.2.2</cucumber.version>
+    <cucumber.version>1.2.3</cucumber.version>
     <junit.version>4.12</junit.version>
   </properties>
 
@@ -31,12 +31,12 @@
   </dependencies>
     <build>
   	<plugins>
-  		<plugin>
+  	   <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.1</version>
             <configuration>
-                <fork>true</fork>
-                <executable>C:\Program Files\Java\jdk1.8.0_51\bin\javac.exe</executable>
+                <source>1.8</source> <!-- or 1.8 -->
+                <target>1.8</target> <!-- or 1.8 -->
             </configuration>
         </plugin>
   		<plugin>
