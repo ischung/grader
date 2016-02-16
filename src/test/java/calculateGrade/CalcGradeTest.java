@@ -7,6 +7,5 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin={"pretty", "html:out"}, snippets=SnippetType.CAMELCASE)
-//@CucumberOptions( snippets=SnippetType.CAMELCASE)
 public class CalcGradeTest {
 }
