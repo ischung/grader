@@ -61,7 +61,7 @@ formatter.match({
   "location": "CalcGradeStepDefs.addScore(String,int,int,int)"
 });
 formatter.result({
-  "duration": 552108078,
+  "duration": 136485442,
   "status": "passed"
 });
 formatter.match({
@@ -86,7 +86,7 @@ formatter.match({
   "location": "CalcGradeStepDefs.addScore(String,int,int,int)"
 });
 formatter.result({
-  "duration": 179380,
+  "duration": 210054,
   "status": "passed"
 });
 formatter.match({
@@ -111,14 +111,14 @@ formatter.match({
   "location": "CalcGradeStepDefs.addScore(String,int,int,int)"
 });
 formatter.result({
-  "duration": 140116,
+  "duration": 365713,
   "status": "passed"
 });
 formatter.match({
   "location": "CalcGradeStepDefs.theProfessorGivesTheStudentsGrades()"
 });
 formatter.result({
-  "duration": 107397,
+  "duration": 118711,
   "status": "passed"
 });
 formatter.match({
@@ -135,7 +135,7 @@ formatter.match({
   "location": "CalcGradeStepDefs.theGradeOfTheStudentWithIdShouldBe(String,Grade)"
 });
 formatter.result({
-  "duration": 4229666,
+  "duration": 6584882,
   "status": "passed"
 });
 });
